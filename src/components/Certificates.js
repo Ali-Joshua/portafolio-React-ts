@@ -1,0 +1,7 @@
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import imageCertificates from "../assets/img/imageCertificates";
+import "../css/layouts/certificates.css";
+function Certificates() {
+    return (_jsx(_Fragment, { children: _jsxs("section", { className: "certificates-section", id: "certificates", children: [_jsx("h2", { children: "Certificaciones" }), _jsxs("div", { className: "grid-container", children: [_jsx("div", { className: "grid-item", children: _jsxs("a", { href: "https://1drv.ms/b/s!Ah7Vb7uiSolAh6oRJCHPkVFkA3ZMGg?e=bvxaX7", target: "_blank", children: [_jsx("img", { src: imageCertificates.EXCEL, alt: "Excel" }), _jsx("div", { children: _jsx("h3", { children: "Microsoft Office Specialist: Office Excel 2016" }) })] }) }), _jsx("div", { className: "grid-item", children: _jsxs("a", { href: "https://1drv.ms/b/s!Ah7Vb7uiSolAh6oQVgbjOmuwc775tQ?e=YoIOVY", target: "_blank", children: [_jsx("img", { src: imageCertificates.WORD, alt: "Word" }), _jsx("div", { children: _jsx("h3", { children: "Microsoft Office Specialist: Office Word 2016" }) })] }) }), _jsx("div", { className: "grid-item", children: _jsxs("a", { href: "https://www.freecodecamp.org/certification/fcc7f4be347-6cd7-47cb-a796-f59688b086f1/javascript-algorithms-and-data-structures", target: "_blank", children: [_jsx("img", { src: imageCertificates.FC, alt: "JavaScript" }), _jsx("div", { children: _jsx("h3", { children: "JavaScript Algorithms and Data Structures" }) })] }) })] })] }) }));
+}
+export default Certificates;

@@ -5,14 +5,13 @@
     { "path": "./tsconfig.node.json" }
   ],
   
-    "compilerOptions": {
-      "allowImportingTsExtensions": true,
-      "noEmit": true,
-      "module": "ESNext",
-      "target": "es6",
-      "moduleResolution": "node",
-      "jsx": "react-jsx"
-    }
-  
+  "compilerOptions": {
+    "module": "Node16",      // Cambiar a "Node16"
+    "moduleResolution": "Node16",  // Configuración de resolución de módulos
+    "target": "esnext",      // Configuración del objetivo de JavaScript
+    "lib": ["esnext", "dom"],  // Para usar las últimas características de JavaScript
+    "esModuleInterop": true,  // Importaciones y exportaciones compatibles
+    "strict": true           // Activar todas las comprobaciones de tipo estrictas
+  }
 }
 
