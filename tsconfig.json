@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  
+    "compilerOptions": {
+      "allowImportingTsExtensions": true,
+      "noEmit": true,
+      "module": "ESNext",
+      "target": "es6",
+      "moduleResolution": "node",
+      "jsx": "react-jsx"
+    }
+  
+}
+

@@ -1,0 +1,89 @@
+/* Estilos para la sección hero */
+.hero {
+    /* Altura completa del viewport */
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    /* Flexbox para centrar el contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    /* Estilos del texto */
+    color: white;
+    text-align: center;
+}
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.hero-content a{
+    color: white;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-transform:uppercase;
+    text-decoration: none;
+}
+.hero-content a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+/* Dispositivos moviles */
+@media (max-width: 1024px) {
+    .hero {
+        background-attachment: scroll;
+    }
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Clases de animación para mostrar/ocultar texto */
+.hidden-text {
+    opacity: 1;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    
+}
+
+.show-text {
+    opacity: 1;
+    transform: translateY(0);
+    
+}
+
+
+
+/* Keyframes para la animación del cursor */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: white;
+    }
+}
+
+
+
+

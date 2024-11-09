@@ -1,0 +1,52 @@
+/* Estilos generales */
+
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    /* Usar la fuente Poppins */
+    background-color: #201c1c;
+    /* Color de fondo */
+    color: #fff;
+}
+
+/* Cambiar color y subrayado al pasar el mouse por un enlace */
+a {
+    color: rgb(241, 225, 225);
+}
+
+a:hover {
+    color: #c3c9d1;
+    /* Cambiar el color al azul */
+    text-decoration: none;
+    /* Eliminar subrayado */
+    transition: all 0.5s ease-in-out;
+    /* Animación suave */
+}
+
+/* Cambiar el color de enlaces visitados */
+a:visited {
+    color: initial;
+    /* Mantener el color original */
+}
+
+
+/* Estilos para el pie de página */
+footer {
+    text-align:justify;
+    font-weight: 100;
+    padding: 15px 25px;
+    color: #fff;
+    background: #3d3d3d;
+}
+
+p{
+    text-align: justify;
+}
+@media (min-width: 2000px) {
+    body {
+        font-size: 2rem;
+    }
+}
